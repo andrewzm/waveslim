@@ -88,8 +88,8 @@ void two_D_dwt(double *X, int *M, int *N, int *L, double *h, double *g,
       LL[i+k*(*M/2)] = Vout[k]; 
       HL[i+k*(*M/2)] = Wout[k]; 
       
-      //LL[i+k*(*N/2)] = Vout[k]; // Right ones
-      //HL[i+k*(*N/2)] = Wout[k]; // Right ones
+      //LL[i+k*(*N/2)] = Vout[k]; // Original ones
+      //HL[i+k*(*N/2)] = Wout[k]; // Original ones
      // printf("LL[%d][%d] = %f\n", i, k, LL[i+k*(*N/2)]);
 	   // printf("LH[%d][%d] = %f\n", i, k, HL[i+k*(*N/2)]); 
     }
