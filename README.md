@@ -13,21 +13,21 @@ Details
 
 The incorrect code was in `src/dwt2.c`. The following changes have been made
 
-  LL[i+k*(*N/2)] = Vout[k]; // Right ones
-  HL[i+k*(*N/2)] = Wout[k]; // Right ones
+    LL[i+k*(*N/2)] = Vout[k]; // Right ones
+    HL[i+k*(*N/2)] = Wout[k]; // Right ones
 
 has been changed to
 
-  LL[i+k*(*M/2)] = Vout[k]; 
-  HL[i+k*(*M/2)] = Wout[k]; 
+    LL[i+k*(*M/2)] = Vout[k]; 
+    HL[i+k*(*M/2)] = Wout[k]; 
 
 Further, 
 
-  LH[i+k*(*N/2)] = Vout[k]; 
-  HH[i+k*(*N/2)] = Wout[k]; 
+    LH[i+k*(*N/2)] = Vout[k]; 
+    HH[i+k*(*N/2)] = Wout[k]; 
 
 has been changed to
 
-  LH[i+k*(*M/2)] = Vout[k]; 
-  HH[i+k*(*M/2)] = Wout[k];
+    LH[i+k*(*M/2)] = Vout[k]; 
+    HH[i+k*(*M/2)] = Wout[k];
 
