@@ -13,8 +13,8 @@ Details
 
 The incorrect code was in `src/dwt2.c`. The following changes have been made
 
-    LL[i+k*(*N/2)] = Vout[k]; // Right ones
-    HL[i+k*(*N/2)] = Wout[k]; // Right ones
+    LL[i+k*(*N/2)] = Vout[k];
+    HL[i+k*(*N/2)] = Wout[k];
 
 has been changed to
 
